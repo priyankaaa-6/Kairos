@@ -19,13 +19,10 @@ Kairos is an AI-powered learning companion designed to enhance the educational e
 
 ### Steps
 1. Clone the repository
-2. Create .env file, add
-GOOGLE_API_KEY= your api key
-BART_API_KEY=your api key
 
-4. Run the application:
-   bash
-   streamlit run app.py
+2. Run the application:
+      bash
+      streamlit run app.py
 
 
 ## Usage
