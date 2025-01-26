@@ -1,59 +1,33 @@
-# Learnify-Assistant
+# AI-Powered Learning Companion (Kairos)
 
-Learnify-Assistant is an innovative educational tool leveraging cutting-edge AI models such as Langchain, Google Gemeni Pro, and OpenAI Whisper to enhance the learning experience of students. With features like Lecture Q&A, PDF Q&A, and Quiz Generator, Learnify-Assistant aims to provide comprehensive support to leverage AI for enhancing their overall learning experience and also enabling students in understanding course material, clarifying doubts, and assessing their knowledge.
+Kairos is an AI-powered learning companion designed to enhance the educational experience by providing personalized learning paths, intelligent tutoring, and real-time feedback for students. It leverages state-of-the-art machine learning models and natural language processing techniques to assist students with various subjects, including lectures, quizzes, and assignments.
 
 ## Features
+- *Lecture Q&A*: Instant answers to questions from lecture content.
+- *PDF Q&A*: Extract and answer questions from uploaded PDF materials.
+- *Quiz Generator*: Automatically generates quizzes based on study material.
+- *AI-Powered Insights*: Provides personalized recommendations and insights for optimized learning.
 
-1. **Lecture Q&A**
-   
-Description: Students can receive real-time answers to their queries or doubts while watching a lecture.
+## Tech Stack
+- *Python*: The core language for backend development.
+- *Langchain*: Used for building language model chains for complex workflows.
+- *Google Gemini Pro*: Leveraged for advanced AI functionalities.
+- *OpenAI Whisper*: Utilized for transcription and audio analysis.
+- *Streamlit*: Web framework for creating interactive interfaces.
+- *FAISS*: For efficient similarity search and retrieval of learning resources.
+- *JSON & PKL Files*: For storing learning data and configurations.
 
-Functionality: The tool extracts audio from the video, converts it to text, and uses the extracted text as context to generate relevant answers to student queries.
+### Steps
+1. Clone the repository
 
-Benefits: Enables students to clarify doubts instantly, enhancing understanding and engagement during lectures.
+2. Run the application:
+   bash
+   streamlit run app.py
 
-2. **PDF Q&A**
 
-Description: Users can upload multiple PDFs, such as notes or textbooks, and ask questions or doubts related to the content.
+## Usage
 
-Functionality: The tool trains a Language Model on the uploaded PDFs, allowing students to ask questions based on the trained model.
+1. *Lecture Q&A*: Upload lecture notes or enter lecture content to ask questions, and the system will provide relevant answers based on the content.
+2. *PDF Q&A*: Upload a PDF document, and ask questions related to the content within the PDF file.
+3. *Quiz Generator*: Use any study material (lectures, PDFs, etc.) to generate quizzes for self-assessment.
 
-Benefits: Provides a convenient way for students to seek clarification on course materials outside of traditional classroom settings.
-
-3. **Quiz**
-
-Description: Users can upload multiple PDFs and generate quizzes based on specific topics chosen by them.
-
-Functionality: The tool tracks the time spent on each question during the quiz session. This feature allows students to manage their time effectively and helps educators identify areas where students may need additional support.
-
-Benefits: Enables students to assess their knowledge within a predefined time frame, simulating real exam conditions. Additionally, the time tracking feature provides valuable insights into students' time management skills and allows for targeted intervention where necessary.
-
-## Benefits
-
-Boost understanding: Clarify doubts instantly during lectures and study sessions.
-
-Improve knowledge retention: Ask open-ended questions and explore concepts in depth.
-
-Develop critical thinking: Analyze reports and visualize data to gain deeper insights.
-
-Increase learning efficiency: Spend less time searching for answers and more time learning.
-
-Personalize your learning: Tailor quizzes to your specific needs and study goals
-
-## How to Use
-
-To use Learnify-Assistant, follow these steps:
-1. Clone the repository to your local machine.
-2. Install the required dependencies.
-3. Run the application using:
-    ```bash
-   streamlit run Home.py
-    ```
-
-## Contributing
-
-We welcome contributions from the community. If you'd like to contribute to Learnify-Assistant, please follow general contribution guidelines.
-
-## Contact
-
-If you have any questions or feedback, feel free to contact.
